@@ -118,6 +118,20 @@
         <item>SARAVANAN</item>
         <item>LIVINGSTON</item>
     </string-array>
+    <string-array name="store_status_codes">
+        <item>Pending</item>
+        <item>Handover</item>
+        <item>Closed</item>
+        <item>Handover Spare Faulty</item>
+        <item>Other Spare Required</item>
+    </string-array>
+    <string-array name="moved_station_codes">
+        <item>SKO STORE</item>
+        <item>STI STORE</item>
+        <item>SAN STORE</item>
+        <item>ADMIN STORE</item>
+        <item>SMA STORE</item>
+    </string-array>
 
 
 

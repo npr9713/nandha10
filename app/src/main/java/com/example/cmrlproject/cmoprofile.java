@@ -34,15 +34,15 @@ public class cmoprofile extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.cmoprofile);
-        t1=(TextView) findViewById(R.id.enamep);
-        t2=(TextView) findViewById(R.id.eidp);
-        t3=(TextView) findViewById(R.id.eemailp);
-        t4=(TextView) findViewById(R.id.ephonep);
-        b1=(Button) findViewById(R.id.logoutb);
-        b2=(ImageButton)  findViewById(R.id.addempbut);
-        b3=(ImageButton) findViewById(R.id.homebut);
-        b4=(ImageButton)findViewById(R.id.viewreqbut);
-        b5=(ImageButton)findViewById(R.id.dashboardbut);
+        t1= findViewById(R.id.enamep);
+        t2=findViewById(R.id.eidp);
+        t3= findViewById(R.id.eemailp);
+        t4= findViewById(R.id.ephonep);
+        b1= findViewById(R.id.logoutb);
+        b2=  findViewById(R.id.addempbut);
+        b3= findViewById(R.id.homebut);
+        b4=findViewById(R.id.viewreqbut);
+        b5=findViewById(R.id.dashboardbut);
         Intent i = getIntent();
         token = i.getStringExtra("token");
         new ProfileDataTask().execute("https://98bb-2401-4900-6323-51b1-741b-7ac2-15bb-9d07.ngrok-free.app/cmo_profile");
