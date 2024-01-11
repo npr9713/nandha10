@@ -13,11 +13,11 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class non_operational extends AppCompatActivity {
+public class handovered_spare_faulty extends AppCompatActivity {
 
     TextView t1;
     String fault_type;
-    EditText e1;
+    EditText e1,e2,e3;
     Button b1;
     AutoCompleteTextView stationAutoCompleteTextView,slenameAutoCompleteTextView,slenoAutoCompleteTextView,unitnameAutoCompleteTextView;
     AutoCompleteTextView sparerequestedAutoCompleteTextView,requestedbyAutoCompleteTextView;
@@ -25,10 +25,11 @@ public class non_operational extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.non_operational);
+        setContentView(R.layout.handovered_spare_faulty);
         t1=findViewById(R.id.sparereqtype);
         e1=findViewById(R.id.editTextDate);
-
+        e2=findViewById(R.id.faulty_spare_SL_no);
+        e3=findViewById(R.id.fault_desc);
         b1=findViewById(R.id.submit_req);
         Intent i = getIntent();
 

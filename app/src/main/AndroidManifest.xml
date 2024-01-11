@@ -173,6 +173,18 @@
             android:name=".storeje_spare_reqdetail"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".non_operational"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".reserved_spare"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".handovered_spare_faulty"
+            android:exported="true">
+        </activity>
 
 
     </application>

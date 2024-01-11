@@ -234,7 +234,7 @@ public class zjefaultdetail extends AppCompatActivity{
                         break;
                     }
                     case "Handovered Spare Faulty": {
-                        Intent i = new Intent(zjefaultdetail.this, handoverd_spare_faulty.class);
+                        Intent i = new Intent(zjefaultdetail.this, handovered_spare_faulty.class);
                         i.putExtra("fault type", faulty_type);
                         startActivity(i);
                         break;
