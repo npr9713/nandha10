@@ -75,7 +75,8 @@ public class storelogin extends AppCompatActivity {
                         Intent i = new Intent(storelogin.this, storel1home.class);
                         startActivity(i);
                     } else if (usertype.equals("Junior Engineer")) {
-                        
+                        Intent i=new Intent(storelogin.this,storejehome.class);
+                        startActivity(i);
                     }
                 }
             }
